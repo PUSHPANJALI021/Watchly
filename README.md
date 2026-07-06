@@ -1,6 +1,6 @@
 # 🎬 Watchly — AI Movie Recommendation System
 
-Watchly is a content-based movie recommendation web application built with **Python**, **Machine Learning**, and **Streamlit**. It suggests movies similar to a selected title by analyzing metadata such as genres, keywords, cast, crew, and plot overview.
+Watchly is a content-based movie recommendation web application built with **Python**, **Machine Learning**, and **Streamlit**. It suggests movies similar to a selected title by analyzing metadata such as genres, keywords, cast, crew, and plot overview
 
 ---
 
