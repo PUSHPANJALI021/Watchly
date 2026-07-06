@@ -81,7 +81,7 @@ python -m streamlit run app.py
 2. Merge and preprocess the movie metadata
 3. Extract genres, cast, crew, keywords, and overview
 4. Combine extracted fields into a single "tags" column per movie
-5. Vectorize tags using `CountVectorizer`.
+5. Vectorize tags using `CountVectorizer`
 6. Compute cosine similarity between all movie vectors
 7. Return the top 5 most similar movies for a given selection
 
