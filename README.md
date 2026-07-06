@@ -1,49 +1,34 @@
-🎬 Watchly — AI Movie Recommendation System
+# 🎬 Watchly — AI Movie Recommendation System
 
-Watchly is a content-based movie recommendation web application built with Python, Machine Learning, and Streamlit. It suggests movies similar to a selected title by analyzing metadata such as genres, keywords, cast, crew, and plot overview.
+Watchly is a content-based movie recommendation web application built with **Python**, **Machine Learning**, and **Streamlit**. It suggests movies similar to a selected title by analyzing metadata such as genres, keywords, cast, crew, and plot overview.
 
+---
 
- Features
+## Features
 
+- 🎥 Content-based movie recommendations
+- 🤖 Machine learning recommendation engine
+- 🍿 Interactive Streamlit web interface
+- 🖼️ Movie poster integration via the OMDb API
+- ⚡ Fast similarity search
+- 🎨 Modern, Netflix-inspired UI
 
-🎥 Content-based movie recommendations
-🤖 Machine learning recommendation engine
-🍿 Interactive Streamlit web interface
-🖼️ Movie poster integration via the OMDb API
-⚡ Fast similarity search
+---
 
- Tech Stack
+## 🛠️ Tech Stack
 
-CategoryToolsLanguagePythonWeb AppStreamlitData HandlingPandas, NumPyMachine LearningScikit-learnNLPNLTKSerializationPickleAPI RequestsRequestsPoster DataOMDb API
+| Category | Tools |
+|---|---|
+| Language | Python |
+| Web App | Streamlit |
+| Data Handling | Pandas, NumPy |
+| Machine Learning | Scikit-learn |
+| NLP | NLTK |
+| Serialization | Pickle |
+| API Requests | Requests |
+| Poster Data | OMDb API |
 
-
-📂 Project Structure
-
-Watchly/
-│
-├── app.py
-├── dataset/
-│   ├── movie_list.pkl
-│   ├── similarity.pkl
-│   ├── tmdb_5000_movies.csv
-│   └── tmdb_5000_credits.csv
-│
-├── README.md
-└── requirements.txt
-
-
-
-
-📊 How It Works
-
-
-Load the TMDB movies and credits datasets.
-Merge and preprocess the movie metadata.
-Extract genres, cast, crew, keywords, and overview.
-Combine extracted fields into a single "tags" column per movie.
-Vectorize tags using CountVectorizer.
-Compute cosine similarity between all movie vectors.
-Return the top 5 most similar movies for a given selection.
+---
 
 
 
@@ -51,6 +36,8 @@ Return the top 5 most similar movies for a given selection.
 
 
 <img width="1600" height="815" alt="image" src="https://github.com/user-attachments/assets/0a0d542c-c3c0-46df-be60-0189ec82a670" />
+<img width="1600" height="836" alt="image" src="https://github.com/user-attachments/assets/5d3cd375-2a0a-4a8f-a67b-a9136d65e3a4" />
+
 
 
 
