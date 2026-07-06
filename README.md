@@ -6,16 +6,16 @@ Watchly is a content-based movie recommendation web application built with **Pyt
 
 ## Features
 
-- 🎥 Content-based movie recommendations
-- 🤖 Machine learning recommendation engine
-- 🍿 Interactive Streamlit web interface
-- 🖼️ Movie poster integration via the OMDb API
-- ⚡ Fast similarity search
+-  Content-based movie recommendations
+-  Machine learning recommendation engine
+-  Interactive Streamlit web interface
+-  Movie poster integration via the OMDb API
+-  Fast similarity search
 
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Category | Tools |
 |---|---|
@@ -29,7 +29,7 @@ Watchly is a content-based movie recommendation web application built with **Pyt
 | Poster Data | OMDb API |
 
 ---
-## 📂 Project Structure
+##  Project Structure
 
 ```
 Watchly/
@@ -47,7 +47,7 @@ Watchly/
 
 ---
 
-## ⚙️ Installation
+##  Installation
 
 **1. Clone the repository**
 ```bash
@@ -75,7 +75,7 @@ python -m streamlit run app.py
 
 ---
 
-## 📊 How It Works
+##  How It Works
 
 1. Load the TMDB movies and credits datasets.
 2. Merge and preprocess the movie metadata.
@@ -95,14 +95,14 @@ python -m streamlit run app.py
 <img width="1600" height="815" alt="image" src="https://github.com/user-attachments/assets/0a0d542c-c3c0-46df-be60-0189ec82a670" />
 <img width="1600" height="836" alt="image" src="https://github.com/user-attachments/assets/5d3cd375-2a0a-4a8f-a67b-a9136d65e3a4" />
 
-## 🔮 Future Enhancements
+##  Future Enhancements
 
-- ⭐ IMDb ratings integration
-- 🎞️ Movie trailers
-- ❤️ Watchlist feature
-- 🔍 Smart search
-- 🌙 Enhanced Netflix-style UI
-- ☁️ Cloud deployment
+-  IMDb ratings integration
+-  Movie trailers
+-  Watchlist feature
+-  Smart search
+-  Enhanced Netflix-style UI
+-  Cloud deployment
 
 
 
