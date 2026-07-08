@@ -96,6 +96,9 @@ python -m streamlit run app.py
 
 <img width="1600" height="836" alt="image" src="https://github.com/user-attachments/assets/5d3cd375-2a0a-4a8f-a67b-a9136d65e3a4" />
 
+<img width="598" height="392" alt="image" src="https://github.com/user-attachments/assets/c4e882b6-8dd7-4459-b1a0-34abb7fb11a3" />
+
+
 ##  Future Enhancements
 
 -  IMDb ratings integration
